@@ -1,33 +1,17 @@
-<?php
-
+<?php 
 
 
 ?>
 
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
+	<title>Login</title>
 </head>
+<body>
 
-<body 
-    <div id="box">
-    <div style="font-size: 20px; margin: 10px;">Login</div>
-        <form action="" method="post">
-            <input id="text" type="text" name="user_name" id=""> <br><br>
-            <input id="text" type="password" name="password" id=""> <br><br>
-            <input id="button" type="Submit" value="Login" id=""> <br><br>
-
-            <a href="signup.php">Click to Sign up</a> <br><br>
-        </form>
-    </div>
-    </div>
-    
-
-    <style>
+	<style type="text/css">
 	
 	#text{
 
@@ -51,10 +35,24 @@
 
 		background-color: grey;
 		margin: auto;
-		width: 50%;
+		width: 300px;
 		padding: 20px;
 	}
 
 	</style>
+
+	<div id="box">
+		
+		<form method="post">
+			<div style="font-size: 20px;margin: 10px;color: white;">Login</div>
+
+			<input id="text" type="text" name="user_name"><br><br>
+			<input id="text" type="password" name="password"><br><br>
+
+			<input id="button" type="submit" value="Login"><br><br>
+
+			<a href="signup.php">Click to Signup</a><br><br>
+		</form>
+	</div>
 </body>
 </html>
