@@ -22,6 +22,6 @@
 
     <br>
 
-    Hello, Username.
+    Hello, <?php echo $user_data['user_name'] ?>.
 </body>
 </html>
